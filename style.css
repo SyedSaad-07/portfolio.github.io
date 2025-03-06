@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 /* Variables */
 :root{
-    --main-color: #e02f6b;
+    /* --main-color: #e02f6b; */
+    /* --main-color: #16163d; */
+    --main-color: #1b1b85;
     --blue: #0000ff;
     --blue-dark: #18293c;
     --orange:#ffa500;
     --green-yellow:#cddc39;
-    --pink-light:#efa2b4;
+    /* --pink-light:#efa2b4; */
+    --blue-light:#3434a3;
     --cyan-light:#aef1ee;
     --white: white;
     --white-alpha-40: rgba(255,255,255,0.40);
@@ -68,7 +71,7 @@
 } */
 body{
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, var(--pink-light) , var(--cyan-light));
+    background-image: linear-gradient(to bottom right, var(--blue-light) , var(--cyan-light));
     background-attachment: fixed;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
